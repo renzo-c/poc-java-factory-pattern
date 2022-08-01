@@ -1,6 +1,6 @@
 package factory;
 
-public class RegularPizza extends Pizza{
+public class ChicagoStyleClaimPizza extends Pizza{
     public void prepare() {
 //    	System.out.println("Prepare Method");
     };
@@ -15,6 +15,6 @@ public class RegularPizza extends Pizza{
     };
     
     public String toString() {
-        return "This is a Regular pizza";
+        return "This is a NYStyleVeggiePizza pizza";
     }
 }
